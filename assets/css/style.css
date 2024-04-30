@@ -403,6 +403,23 @@ section .container {
   color: #18d26e;
 }
 
+.about-me .about-button{
+  padding: 5px 15px 5px 15px ;
+  background-color: #18d26e;
+  }
+  .about-me .about-button a{
+    color: rgb(255, 255, 255);
+    }
+    .about-me .about-button:hover{
+      transition: 0.6;
+      padding: 5px 15px 5px 15px ;
+      background-color: #ffffff;
+      }
+      .about-me .about-button a:hover{
+        transition: 0.6;
+        color: #18d26e;
+        }
+
 .about-me .content ul {
   list-style: none;
   padding: 0;
@@ -506,6 +523,22 @@ section .container {
   color: #fff;
 }
 
+.resume .resume-button{
+padding: 5px 15px 5px 15px ;
+background-color: #18d26e;
+}
+.resume .resume-button a{
+  color: rgb(255, 255, 255);
+  }
+  .resume .resume-button:hover{
+    transition: 0.6;
+    padding: 5px 15px 5px 15px ;
+    background-color: #ffffff;
+    }
+    .resume .resume-button a:hover{
+      transition: 0.6;
+      color: #18d26e;
+      }
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
